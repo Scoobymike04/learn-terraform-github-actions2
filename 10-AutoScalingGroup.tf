@@ -70,7 +70,7 @@ resource "aws_autoscaling_policy" "SalsaSunday_scaling_policy_80" {
 # Enabling instance scale-in protection
 resource "aws_autoscaling_attachment" "SalsaSunday_asg_attachment_80" {
   autoscaling_group_name = aws_autoscaling_group.SalsaSunday_asg_443.name
- alb_target_group_arn = aws_lb_target_group.SalsaSunday_tg_80.arn
+  alb_target_group_arn   = aws_lb_target_group.SalsaSunday_tg_80.arn
 }
 
 

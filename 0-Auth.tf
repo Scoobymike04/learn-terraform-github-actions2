@@ -9,13 +9,13 @@ terraform {
       version = "~> 3.0"
     }
   }
-  cloud { 
-    
-    organization = "DustyCloudNinja" 
+  cloud {
 
-    workspaces { 
-      name = "TheDustCloud" 
-    } 
-  } 
+    organization = "DustyCloudNinja"
+
+    workspaces {
+      name = "TheDustCloud"
+    }
+  }
 }
 
